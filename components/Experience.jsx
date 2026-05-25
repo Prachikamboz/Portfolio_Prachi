@@ -101,7 +101,7 @@ function ExperienceRow({ exp, index, last }) {
     >
       <div className="flex gap-6">
 
-        {/* ── Left: dot + line ── */}
+       
         <div className="flex flex-col items-center pt-1">
           {/* Dot */}
           <div className={`
