@@ -59,7 +59,7 @@ export default function Details() {
 
         {/* ── LEFT ── */}
         <div className="flex flex-col gap-7">
-          <p className ="p-4 mt-3 gap-4 bg-red-500 text-sm  uppercase  text-transparent leading-[1.10] ">Click me </p>
+          
 
           {/* Label */}
           <p className="text-[10px] font-black tracking-[0.3em] text-lime-500 dark:text-lime-400 uppercase">
