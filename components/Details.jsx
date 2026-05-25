@@ -199,7 +199,7 @@ export default function Details() {
               aspect-[3/4]
             ">
               <img
-                src="/pk.png"
+                src="/Pk.png"
                 alt="Prachi Kamboj"
                 className="w-full h-full object-cover"
               />
