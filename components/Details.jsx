@@ -205,7 +205,7 @@ export default function Details() {
               />
             </div>
 
-            {/* Floating badge — bottom left */}
+          
             <div className="
               absolute -bottom-4 -left-4
               bg-white dark:bg-zinc-900
