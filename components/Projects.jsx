@@ -38,9 +38,25 @@ const projectsData = [
     stack: ["React.js", "Tailwind CSS", "REST APIs", "JavaScript ES6+"],
     images: ["/Begawn.png", "/Begawn2.png"],
   },
+   {
+    title: "Academic Begawn",
+    number: "03",
+    link: "https://academy.begawn.com/",
+    tag: "Course Platform",
+    description:
+      "An online course listing platform where users can browse, explore, and view detailed course information. Built with React.js and connected to REST APIs for dynamic data loading. Clean, responsive UI with reusable components throughout.",
+    bullets: [
+      "Course listing and detail pages powered by dynamic REST API data.",
+      "Reusable course card and filter components used across multiple pages.",
+      "Component-based architecture for clean code and easy scalability.",
+      "Fully responsive design — clean and functional on mobile and desktop.",
+    ],
+    stack: ["React.js", "Tailwind CSS", "REST APIs", "Component Architecture"],
+    images: ["/academy.png", "/academy2.png"],
+  },
   {
     title: "Boggot",
-    number: "03",
+    number: "04",
     link: "https://boggot.com",
     tag: "Web Application",
     description:
@@ -55,22 +71,7 @@ const projectsData = [
     images: ["/Boggot.png", "/boggot1.png"],
   },
   
-  {
-    title: "Academic Begawn",
-    number: "04",
-    link: "https://academy.begawn.com/",
-    tag: "Course Platform",
-    description:
-      "An online course listing platform where users can browse, explore, and view detailed course information. Built with React.js and connected to REST APIs for dynamic data loading. Clean, responsive UI with reusable components throughout.",
-    bullets: [
-      "Course listing and detail pages powered by dynamic REST API data.",
-      "Reusable course card and filter components used across multiple pages.",
-      "Component-based architecture for clean code and easy scalability.",
-      "Fully responsive design — clean and functional on mobile and desktop.",
-    ],
-    stack: ["React.js", "Tailwind CSS", "REST APIs", "Component Architecture"],
-    images: ["/academy.png", "/academy2.png"],
-  },
+ 
 ];
 
 // ── Image Panel — arrows OUTSIDE the image ──
