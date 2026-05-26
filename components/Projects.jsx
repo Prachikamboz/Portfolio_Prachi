@@ -74,7 +74,7 @@ const projectsData = [
  
 ];
 
-// ── Image Panel — arrows OUTSIDE the image ──
+
 function ImagePanel({ project }) {
   const [imgIndex, setImgIndex] = useState(0);
   const [slide, setSlide] = useState(null);
