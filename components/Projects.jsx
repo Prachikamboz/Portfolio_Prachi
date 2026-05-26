@@ -21,25 +21,10 @@ const projectsData = [
     stack: ["React.js", "Next.js", "Tailwind CSS", "REST APIs", "SSR"],
     images: ["/gym.png", "/Gym2.png"],
   },
-  {
-    title: "Boggot",
-    number: "02",
-    link: "https://boggot.com",
-    tag: "Web Application",
-    description:
-      "A full-scale web application built from scratch with Next.js and TypeScript. The project focused on performance-first architecture — combining SSR and SSG for SEO-optimised, fast-loading pages with a clean, scalable codebase.",
-    bullets: [
-      "Built entirely with TypeScript to catch errors early and maintain code quality.",
-      "SSR and SSG implemented for quick page loads and better search engine rankings.",
-      "Lazy loading applied to heavy pages to reduce first-load time significantly.",
-      "Scalable folder structure designed for easy feature additions and maintenance.",
-    ],
-    stack: ["Next.js", "TypeScript", "SSR", "SSG", "Performance Optimization"],
-    images: ["/Boggot.png", "/boggot1.png"],
-  },
+
   {
     title: "Begawn",
-    number: "03",
+    number: "02",
     link: "https://begawn.com",
     tag: "Business Platform",
     description:
@@ -53,6 +38,23 @@ const projectsData = [
     stack: ["React.js", "Tailwind CSS", "REST APIs", "JavaScript ES6+"],
     images: ["/Begawn.png", "/Begawn2.png"],
   },
+  {
+    title: "Boggot",
+    number: "03",
+    link: "https://boggot.com",
+    tag: "Web Application",
+    description:
+      "A full-scale web application built from scratch with Next.js and TypeScript. The project focused on performance-first architecture — combining SSR and SSG for SEO-optimised, fast-loading pages with a clean, scalable codebase.",
+    bullets: [
+      "Built entirely with TypeScript to catch errors early and maintain code quality.",
+      "SSR and SSG implemented for quick page loads and better search engine rankings.",
+      "Lazy loading applied to heavy pages to reduce first-load time significantly.",
+      "Scalable folder structure designed for easy feature additions and maintenance.",
+    ],
+    stack: ["Next.js", "TypeScript", "SSR", "SSG", "Performance Optimization"],
+    images: ["/Boggot.png", "/boggot1.png"],
+  },
+  
   {
     title: "Academic Begawn",
     number: "04",
