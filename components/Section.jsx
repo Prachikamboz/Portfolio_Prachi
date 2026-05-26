@@ -31,7 +31,7 @@ export default function Section({ name = "", title = "", tagline = "", speed = 8
       transition-colors duration-300
     ">
 
-      {/* Name — giant hero text */}
+      
       <h1 className={`
         font-black uppercase tracking-tight
         text-zinc-900 dark:text-white
