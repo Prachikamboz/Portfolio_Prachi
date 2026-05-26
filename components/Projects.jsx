@@ -56,7 +56,7 @@ const projectsData = [
   {
     title: "Academic Begawn",
     number: "04",
-    link: "https://academic.begawn.com",
+    link: "https://academy.begawn.com/",
     tag: "Course Platform",
     description:
       "An online course listing platform where users can browse, explore, and view detailed course information. Built with React.js and connected to REST APIs for dynamic data loading. Clean, responsive UI with reusable components throughout.",
