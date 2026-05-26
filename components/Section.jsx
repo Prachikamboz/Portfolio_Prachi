@@ -43,13 +43,13 @@ export default function Section({ name = "", title = "", tagline = "", speed = 8
         {name}
       </h1>
 
-      {/* Sub-content */}
+      
       <div className={`
         space-y-4 sm:space-y-5 md:space-y-6
         transition-all duration-1000 ease-out delay-500
         ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}
       `}>
-        {/* Typewriter line */}
+       
         <p className="
           text-zinc-400 dark:text-zinc-500 tracking-[0.25em]
           text-[8px] sm:text-[9px] md:text-[11px] lg:text-xs
