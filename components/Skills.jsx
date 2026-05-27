@@ -66,12 +66,12 @@ export default function Skills() {
           {skillGroups.map((group) => (
             <div key={group.label}>
 
-              {/* Group Label */}
+              
               <p className="text-[10px] font-black uppercase tracking-[0.3em] text-zinc-400 dark:text-zinc-600 mb-4 pl-1">
                 {group.label}
               </p>
 
-              {/* Skills Row */}
+              
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {group.skills.map((skill) => (
                   <div
