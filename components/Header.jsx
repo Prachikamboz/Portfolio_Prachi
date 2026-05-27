@@ -25,7 +25,7 @@ export default function Header() {
       relative z-50 transition-colors duration-300
     ">
 
-      {/* Brand */}
+     
       <div className="flex items-center gap-3">
         <div className="text-2xl font-black tracking-tighter text-zinc-900 dark:text-white">PK</div>
         <div className="h-6 w-[1px] bg-zinc-200 dark:bg-zinc-800 hidden sm:block" />

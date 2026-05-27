@@ -38,7 +38,7 @@ export default function CardsSection() {
     <section className="bg-white dark:bg-black py-24 transition-colors duration-300">
       <div className="max-w-5xl mx-auto px-6">
 
-        {/* Heading */}
+       
         <div className="mb-12">
           <p className="text-[10px] font-black uppercase tracking-[0.3em] text-zinc-400 dark:text-zinc-600 mb-3">
             Services
