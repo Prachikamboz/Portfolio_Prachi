@@ -91,7 +91,7 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile Dropdown */}
+      
       {mobileOpen && (
         <div className="
           absolute top-full left-0 w-full
