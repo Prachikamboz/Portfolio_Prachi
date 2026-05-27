@@ -29,7 +29,7 @@ export default function Header() {
       <div className="flex items-center gap-3">
         <div className="text-2xl font-black tracking-tighter text-zinc-900 dark:text-white">PK</div>
         <div className="h-6 w-[1px] bg-zinc-200 dark:bg-zinc-800 hidden sm:block" />
-        <div className="hidden sm:flex flex-col leading-none">
+        <div className="hidden sm:flex flex-col leading-none ">
           <span className="text-[10px] text-zinc-400 font-bold tracking-widest uppercase">
             Prachi Kamboj
           </span>
