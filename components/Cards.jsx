@@ -41,7 +41,7 @@ export default function CardsSection() {
        
         <div className="mb-12">
           <p className="text-[10px] font-black uppercase tracking-[0.3em] text-zinc-400 dark:text-zinc-600 mb-3">
-            Services
+            Services.
           </p>
           <h2 className="text-4xl md:text-5xl font-black tracking-tight text-zinc-900 dark:text-white">
             What I{" "}

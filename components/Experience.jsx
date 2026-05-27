@@ -55,7 +55,7 @@ export default function Experience() {
     ">
       <div className="max-w-5xl mx-auto">
 
-        {/* ── Header ── */}
+        
         <div
           ref={ref}
           className="transition-all duration-700 ease-out mb-16"
@@ -72,7 +72,7 @@ export default function Experience() {
           </h2>
         </div>
 
-        {/* ── Timeline ── */}
+        
         <div className="relative flex flex-col gap-0">
 
           {experiences.map((exp, i) => (
