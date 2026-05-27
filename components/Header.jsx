@@ -40,7 +40,7 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Desktop Nav */}
+     
       <nav className="hidden md:flex items-center bg-zinc-100 dark:bg-zinc-900/50 border border-zinc-200 dark:border-zinc-800 rounded-full px-2 py-1 transition-colors duration-300">
         {navLinks.map(({ label, path }) => {
           const isActive = pathname === path;
@@ -63,7 +63,7 @@ export default function Header() {
         })}
       </nav>
 
-      {/* Right: Toggle + CTA */}
+     
       <div className="hidden md:flex items-center gap-3">
         <ThemeToggle />
         <a
@@ -80,7 +80,7 @@ export default function Header() {
         </a>
       </div>
 
-      {/* Mobile row */}
+     
       <div className="md:hidden flex items-center gap-2">
         <ThemeToggle />
         <button
