@@ -88,7 +88,7 @@ export default function Experience() {
 
 function ExperienceRow({ exp, index, last }) {
   const [ref, visible] = useFadeIn();
-  const [open, setOpen] = useState(index === 0); // first one open by default
+  const [open, setOpen] = useState(index === 0);
 
   return (
     <div
@@ -104,7 +104,7 @@ function ExperienceRow({ exp, index, last }) {
 
        
         <div className="flex flex-col items-center pt-1">
-          {/* Dot */}
+         
           <div className={`
             w-3 h-3 rounded-full shrink-0 mt-1
             ${exp.active
@@ -118,7 +118,7 @@ function ExperienceRow({ exp, index, last }) {
           )}
         </div>
 
-        {/* ── Right: content ── */}
+        
         <div className={`flex-1 pb-10 ${last ? "pb-0" : ""}`}>
 
          
