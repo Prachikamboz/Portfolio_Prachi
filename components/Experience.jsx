@@ -121,7 +121,7 @@ function ExperienceRow({ exp, index, last }) {
         {/* ── Right: content ── */}
         <div className={`flex-1 pb-10 ${last ? "pb-0" : ""}`}>
 
-          {/* Top row — clickable to expand */}
+         
           <button
             onClick={() => setOpen(!open)}
             className="w-full text-left group"
@@ -142,7 +142,7 @@ function ExperienceRow({ exp, index, last }) {
                 </span>
               </div>
 
-              {/* Chevron */}
+             
               <span className={`
                 text-zinc-300 dark:text-zinc-700 text-sm transition-transform duration-300
                 ${open ? "rotate-180" : "rotate-0"}
