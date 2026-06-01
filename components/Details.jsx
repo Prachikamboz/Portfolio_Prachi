@@ -57,11 +57,11 @@ export default function Details() {
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-center">
 
-        {/* ── LEFT ── */}
+        
         <div className="flex flex-col gap-7">
           
 
-          {/* Label */}
+         
           <p className="text-[10px] font-black tracking-[0.3em] text-lime-500 dark:text-lime-400 uppercase">
             A little about me
           </p>
