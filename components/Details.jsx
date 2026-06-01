@@ -84,19 +84,7 @@ export default function Details() {
             clean, maintainable component architecture.
           </p>
 
-          {/* ── Stats row ── */}
-          {/* <div className="flex gap-6 py-2 border-y border-zinc-100 dark:border-zinc-900">
-            {stats.map(({ number, label }) => (
-              <div key={label} className="flex flex-col">
-                <span className="text-3xl font-black text-lime-400 leading-none">
-                  {number}
-                </span>
-                <span className="text-[9px] font-bold uppercase tracking-widest text-zinc-400 dark:text-zinc-600 mt-1.5 whitespace-pre-line leading-snug">
-                  {label}
-                </span>
-              </div>
-            ))}
-          </div> */}
+          
 
           {/* ── Experience mini timeline ── */}
           <div className="flex flex-col gap-3">
