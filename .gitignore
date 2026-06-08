@@ -9,7 +9,7 @@ out
 dist
 build
 
-# environment variables
+# environment variables ..
 .env
 .env.local
 .env.development.local
