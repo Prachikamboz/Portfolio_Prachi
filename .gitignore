@@ -2,7 +2,7 @@
 node_modules
 
 # next build files
-.next...............................
+.next
 
 # production build
 out
