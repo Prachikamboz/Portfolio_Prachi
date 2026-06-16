@@ -48,7 +48,7 @@ export default function Skills() {
     ">
       <div className="max-w-4xl mx-auto">
 
-        {/* Heading */}
+        
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-black tracking-tighter mb-3">
             Skills{" "}

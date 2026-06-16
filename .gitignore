@@ -10,8 +10,6 @@ dist
 build
 
 # environment variables ...env
-.env.local
-.env
 .env.development.local
 .env.production.local
 
@@ -25,7 +23,7 @@ yarn-error.log*
 Thumbs.db
 
 # vscode settings (optional)
-.vscode
 
 # coverage reports....
 coverage
+config.bat
